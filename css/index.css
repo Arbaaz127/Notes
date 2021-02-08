@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0ch;
+    box-sizing: content-box;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+.header{
+    background: linear-gradient(to left, rgb(248, 233, 97), rgb(119, 241, 250));
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    position: sticky;
+    top: 0;
+}
+
+.main_nav_bar ul{
+  list-style-type: none;
+  display: flex;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+  
+}
+.main_nav_bar ul li{
+    flex: 1;
+
+}
+.main_nav_bar ul li a{
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(61, 29, 29) !important;
+}
+
+.main_body{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+}
+.main_body #home img{
+    height: 200px;
+    width: 250px;
+    border: 20px solid grey;
+}
+.main_body #home h1{
+    color:tomato;
+    text-shadow: 2px 2px #ccdef0;
+}
+#about_me{
+    
+}
+.main_body #about_me .desc{
+    background: rgb(143, 178, 243);
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 2px 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.skills, .hobby{
+    height: 5vh;
+    
+}
+
+.skills ol, .hobby ol{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    background: linear-gradient(to right, rgb(247, 158, 158), rgb(166, 166, 241));
+    color: rgb(61, 29, 29);
+    padding: 10px 0px;
+}
+.skills ol li, .hobby ol li{
+    flex: 1;
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.in{
+    background: linear-gradient(to right, rgb(247, 158, 158), rgb(166, 166, 241));
+    padding: 10px 0px;
+
+}
+.add{
+    line-height: 25px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .main_nav_bar ul{
+      display: block;
+    }
+  }
